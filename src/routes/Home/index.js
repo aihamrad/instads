@@ -83,6 +83,7 @@ class Home extends Component {
           <div className="dynamic-flex justify-content-between align-items-center">
           {ads.map((item,index) => 
             <Cards 
+              key={index}
               item={item} 
               index={index}
               showAddBtn={!item.quantity || item.quantity  === 0}
