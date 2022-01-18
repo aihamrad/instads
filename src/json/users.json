@@ -1,0 +1,22 @@
+{ "users": [
+    {
+      "id": "igb-berhad",
+      "name" : "IGB Berhad"
+     },
+     {
+      "id": "uem-sunrise",
+      "name" : "UEM Sunrise"
+     },
+     {
+      "id": "sime-darby-property-bhd",
+      "name" : "Sime Darby Property Bhd"
+     },
+     {
+    "id": "mah-sing Group",
+    "name" : "Mah Sing Group"  
+     },
+     {
+        "id":"guest",
+        "name":"Guest"
+     }
+]}

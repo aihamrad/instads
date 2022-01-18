@@ -1,0 +1,27 @@
+
+{ "ads": [
+    {
+      "id": "Standard",
+      "name" : "Standard Ad",
+      "desc" : "basic level of advertisement",
+      "price_per_unit": 269.99,
+      "price" : 269.99,
+      "currency" : "RM"
+     },
+     {
+      "id": "Featured",
+      "name" : "Featured Ad",
+      "desc" : "Allows advertisers to use a company logo and use a longer presentation text",
+      "price_per_unit": 322.99,
+      "price" : 322.99,
+      "currency" : "RM"
+     },
+     {
+      "id": "Premium",
+      "name" : "Premium Ad",
+      "desc" : "Featured Ad, but also puts the advertisement at the top of the results, allowing higher visibility",
+      "price_per_unit": 394.99,
+      "price" : 394.99,
+      "currency" : "RM"
+     }
+]}
