@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  display: block;
+  width: 800px;
+  padding: 60px 0px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  @include respond(tablet){
+    width: 90%;
+  }
+}
+

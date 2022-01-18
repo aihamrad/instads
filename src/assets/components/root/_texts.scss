@@ -1,0 +1,43 @@
+.text-center {
+    text-align: center;
+}
+
+.text-talic {
+    font-style: italic;
+}
+
+// size
+.text-12 {
+    font-size: 12px;
+}
+.text-15 {
+    font-size: 15px;
+}
+.text-16 {
+    font-size: 16px;
+}
+
+// weight
+.font-light-bold {
+    font-weight: 400;
+}
+.font-semi-bold {
+    font-weight: 500;
+}
+.font-bold {
+    font-weight: 600;
+}
+
+// color
+.text-primary {
+    color: $primary-color;
+}
+.text-white {
+    color: white;
+}
+.text-grey {
+    color: $color-grey;
+}
+.text-blue {
+    color: $color-blue;
+}

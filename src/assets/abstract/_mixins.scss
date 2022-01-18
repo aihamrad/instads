@@ -1,0 +1,38 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone-s {
+    @media (max-width: 20.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == phone {
+    @media (max-width: 46.5em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    // width:600
+    @media (max-width: 55em) {
+      @content;
+    }
+  }
+  @if $breakpoint == labtop {
+    // width:900
+    @media (max-width: 66em) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    // width:1200
+    @media (max-width: 112.5em) {
+      @content;
+    }
+  }
+}
+

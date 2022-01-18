@@ -1,0 +1,37 @@
+.btn {
+    cursor: pointer;
+    border: 0;
+    color: black;
+    text-decoration: none;
+}
+
+//colors 
+
+.btn-primary {
+    background-color: $primary-color;
+    color: white;
+    border: 1px solid;
+    &:hover {
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid $primary-color;
+        color: $primary-color;;
+    }
+}
+.btn-white {
+    background-color: white;
+    border: 1px solid $primary-color;
+    &:hover {
+        background-color: $primary-color;
+        border-radius: 5px;
+        border: 1px solid $primary-color;
+        color: white;;
+    }
+}
+.navbar-btn {
+  &:hover {
+      background-color: $primary-color;
+      border-radius: 5px;
+      color: white;
+  }
+}

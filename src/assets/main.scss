@@ -1,0 +1,14 @@
+@import "./abstract/mixins";
+@import "./abstract/variables";
+
+//components
+@import "./components/checkout/checkout.scss";
+@import "./components/root/helper";
+@import "./components/navbar/navbar";
+@import "./components/card/card";
+//root
+@import "./components/root/texts";
+@import "./components/root/index";
+@import "./components/root/Page";
+@import "./components/root/flex";
+@import "./components/root/button";

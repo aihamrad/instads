@@ -1,0 +1,43 @@
+.flex {
+    display: flex;
+}
+.dynamic-flex {
+    display: flex;
+    flex-direction: row;
+    @include respond(tablet){
+        flex-direction: column;
+      }
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-content {
+    &-between {
+        justify-content: space-between;
+    }
+    &-center {
+        justify-content: center;
+    }
+    &-end {
+        justify-content: end;
+    }
+}
+.align-items {
+    &-center {
+        align-items: center;
+    }
+}
+.flex-basis {
+    &-30 {
+        flex-basis: 30%;
+    }
+    &-70 {
+        flex-basis: 70%;
+    }
+}
+
+.flex-wrap {
+    &-wrap {
+        flex-wrap: wrap;
+    }
+}
